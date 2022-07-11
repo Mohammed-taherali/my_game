@@ -20,7 +20,7 @@ All the maze are stored in the mazes directory.
 
 You can also add your own maze made of hashes and try it out!
 
-Note: Do not put the endpoint 'E' at theedges of the maze because the user 'S' cannot move on the very last row/column.
+Note: Do not put the endpoint 'E' at the edges of the maze because the user 'S' cannot move on the very last row/column.
 
 If anyone has ideas as to how it can be fixed, please use fork. 
 
