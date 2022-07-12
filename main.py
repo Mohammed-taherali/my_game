@@ -12,6 +12,7 @@ from sys import argv, exit, stdout
 from os import path
 import os
 import keyboard
+from textwrap import dedent
 
 # Get the name of maze.
 try:
@@ -158,13 +159,13 @@ class Game:
         Load help message.
         """
 
-        self.help_message = """
+        self.help_message = dedent("""
         Welcome to 'The Maze'.
         This is a simple maze game wherein the goal is to reach the end of the maze.
         
         Controls:
         Use arrow keys to move left, right, up and down.
-        P - Quit the game."""
+        P - Quit the game.""")
         print(self.help_message)
         print("(Press Enter to go to home screen.)")
         input()
